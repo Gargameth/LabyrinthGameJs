@@ -1,0 +1,42 @@
+p {
+    text-align: center;
+    color: brown;
+    margin-left: 260px;
+    margin-right: 260px;
+    background-image: url("../img/background.jpg");
+    background-size: 400px, 100px;
+    font-size: x-large;
+    font-family: Viner Hand ITC;
+}
+
+canvas {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#playerLives {
+    color: burlywood;
+    margin-left: 281px;
+    margin-right: 480px;
+    position: relative;
+    bottom: 8px;
+    background-image: url("../img/LivesBackground.jpg");
+}
+
+#level {
+    color: burlywood;
+    margin-left: 500px;
+    margin-right: 281px;
+    position: relative;
+    bottom: 25px;
+    background-image: url("../img/LevelsBackground.jpg");
+}
+
+body {
+    background-image: url("../img/mainBackground.jpg");
+    background-size: 1024px, 768px;
+}
